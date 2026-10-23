@@ -193,7 +193,6 @@
 
 .decorated_button_text {
   color: var(--button-text-color);
-  color: var(--button-text-color);
   font-family: var(--font-accent);
   font-size: var(--button-size);
   line-height: 90%;
