@@ -1,1 +1,30 @@
 /* В этом файле будут храниться все значения переменных в исходном состоянии, а так же их изменения в зависимости от ширины устройства */
+:root {
+  --font-main: "Inter-Variable", sans-serif;
+  --font-accent: "PressStart2P", monospace;
+  --font-weight-card-text: 400;
+  --text-weight: 400;
+  --title-weight: 785;
+  --font-size: 18px;
+  --font-size-card: 14px;
+
+  --background-image:
+    repeating-linear-gradient(to right, #d3d3d3 0px, #d3d3d3 2px, rgb(0 0 0 / 0) 2px, rgb(0 0 0 / 0) 4px),
+    repeating-linear-gradient(to bottom, #d3d3d3 0px, #d3d3d3 2px, rgb(0 0 0 / 0) 2px, rgb(0 0 0 / 0) 4px),
+    linear-gradient(to bottom, #e7e7e7 0.01%, #1a1a1a);
+  --background-color: #fff;
+
+  --page-width: clamp(18.75rem, 100%, 43.75rem);
+  --header-title: clamp(3.0625rem, 2.7104rem + 1.5023vw, 4.0625rem);
+  --header-subtitle: clamp(0.875rem, 0.6769rem + 0.8451vw, 1.4375rem);
+
+  --color: #000;
+  --main-border: #000;
+  --shadow-color: #fff;
+  --button-text-color: #fff;
+  --button-size: 14px;
+
+  --heart-contour-color: #000;
+  --animation-fill-color: #ff0000;
+
+}
