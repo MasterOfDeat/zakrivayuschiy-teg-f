@@ -244,7 +244,6 @@
   display: flex;
   flex-direction: column;
   flex-shrink: 0;
-  min-height: 191px;
   border: 2px solid var(--color);
   padding: 30px;
   background-color: var(--background-color);
